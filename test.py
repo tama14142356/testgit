@@ -6,9 +6,11 @@ for i in range(10):
     similarityes = np.random.randn(1000)
 
     hist, bins, _ = plt.hist(similarityes, bins=10)
+    test = "test"
+    test2 = "test2"
+    test3 = "test3"
     imfile = "{}.png".format(colums_name)
     plt.savefig(imfile)
-    # im = plt.imread(imfile)
-    # Log the image
     # clear figure
-    plt.clf()
+    yyy = "yyy"
+    plt.cla()
